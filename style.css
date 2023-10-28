@@ -1,0 +1,33 @@
+.container-fluid {
+  --bs-gutter-x: 0 !important;
+}
+
+img {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
+.content {
+  padding: 220px 0 0 200px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 320px 300px auto;
+  margin-top: 70px;
+}
+
+footer ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+}
+footer ul li {
+  margin: 0px 15px;
+}
+.back {
+  text-align: end;
+  padding-right: 100px;
+}
+footer a {
+  color: rgb(25, 117, 238);
+}
